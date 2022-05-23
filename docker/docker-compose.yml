@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  gardena:
+    container_name: gardena
+    restart: always
+    image: node:17.8.0
+    user: "node"
+    working_dir: /home/node/app
+    env_file:
+      - environment.env
+    volumes:
+      - ../gardena:/home/node/app
+      - ../cert:/home/cert
+    command: "node examples/console-simple.js"

@@ -1,0 +1,27 @@
+{
+  "name": "gardena2mqtt-docker",
+  "version": "0.0.1",
+  "description": "Pushes device updates from Gardena Smart Garden to custom MQTT broker",
+  "main": "client.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danielstroehmann/gardena2mqtt-docker.git"
+  },
+  "keywords": [
+    "docker",
+    "gardena",
+    "mqtt"
+  ],
+  "author": "Daniel Stroehmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielstroehmann/gardena2mqtt-docker/issues"
+  },
+  "homepage": "https://github.com/danielstroehmann/gardena2mqtt-docker#readme"
+}
