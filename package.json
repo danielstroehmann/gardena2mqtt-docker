@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/danielstroehmann/gardena2mqtt-docker/issues"
   },
-  "homepage": "https://github.com/danielstroehmann/gardena2mqtt-docker#readme"
+  "homepage": "https://github.com/danielstroehmann/gardena2mqtt-docker#readme",
+  "dependencies": {
+    "gardena-api-client": "^0.9.5"
+  },
+  "type": "module",
+  "devDependencies": {
+    "mqtt": "^4.3.7"
+  }
 }

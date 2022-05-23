@@ -10,6 +10,6 @@ services:
     env_file:
       - environment.env
     volumes:
-      - ../gardena:/home/node/app
+      - ../:/home/node/app
       - ../cert:/home/cert
-    command: "node examples/console-simple.js"
+    command: "node client.js"
