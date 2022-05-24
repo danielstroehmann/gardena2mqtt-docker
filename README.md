@@ -9,6 +9,6 @@ will auto recover.
    
     > :exclamation: Be aware of the paths to the certificates! These path settings have to match the configuration in the 
 ```docker-compose.yml```.
-- adapt the folders for certificates in ```docker-compose.yml```
+- adapt the volume for certificates in ```docker-compose.yml```
 - run with ```docker-compose up``` or ```docker-compose up -d && docker logs -f gardena``` the first time to see log 
 output and check if everything is working
