@@ -21,7 +21,7 @@ gardena.connect({
     username: process.env.GARDENA_USERNAME,
     password: process.env.GARDENA_PASSWORD,
     apikey: process.env.GARDENA_APIKEY,
-    log: (entry) => console.log(entry),
+    log: (entry) => console.log(`${new Date().toLocaleString()} - ${entry}`),
     callback: publish
 })
 
